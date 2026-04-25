@@ -13,19 +13,8 @@ body {
 
 #datos-personales {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #fff;
-    padding: 1.25em;
-    margin: 1.25em auto;
-    border-radius: 0.3125em;
-    box-shadow: 0 0 0.6125em rgba(0, 0, 0, 0.1);
-}
-
-#datos-personales {
-    display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background-color: #fff;
     padding: 20px;
@@ -70,4 +59,25 @@ iframe {
     display: block;
     border-radius: 0.3125em;
     box-shadow: 0 0 0.625em rgba(0, 0, 0, 0.1);
+}
+
+.class{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 0.5em 1em;
+    border-radius: 0.3125em;
+    color: #3522b2;
+    transition: background-color 0.3s ease;
+}
+
+.fotos-instituciones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1.25em;
 }
