@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="home">
+            <h3><a href="index.html">HOME</a></h3>
+        </nav>
+        <nav class="home-contacto">
+            <h3>|</h3>
+        </nav>
+        <nav class="contacto">
+            <h3>CONTACTO</h3>
+        </nav>
+    </header>
+    <main>
+        <form action="submit">
+            <label for="nombre">Nombre: <input type="text" id="nombre" name="nombre" required>
+            </label>
+            <label for="email">Correo Electrónico: <input type="email" id="email" name="email" required>
+            </label>
+            <label for="phone">Teléfono: <input type="number" id="tel" name="phone" required>
+            </label>
+            <label for="mensaje">Mensaje: <input type="text" id="mensaje" name="mensaje " required
+                    style="width: 20em; height: 5em;">
+            </label>
+            <div class="enviar-cancelar">
+                <button type="submit" disabled id="enviar">Enviar</button>
+                <button type="reset" id="cancelar">Cancelar</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2026 Ejercicio 2. Todos los derechos reservados.</p>
+    </footer>
+</body>

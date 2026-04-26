@@ -5,10 +5,10 @@
 body {
     font-size: 1.5em;
     margin: 0 auto;
+    border: #333 solid 0.0625em;
     background-color: #f2f2f2;
     font-family: Arial, sans-serif;
     width: 80%;
-    height: 100%;
 }
 
 header {
@@ -18,18 +18,23 @@ header {
     align-items: center;
     background-color: #333;
     color: white;
-    padding: 20px;
+    padding: 1.25em;
     text-align: center;
     border-color: gray;
     border-width: 0.0625em;
     border-style: solid;
     position: sticky;
     top: 0;
-    /* clave para que se pegue arriba */
     z-index: 1000;
-    /* asegura que quede por encima del contenido */
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 1em;
+}
 
 footer {
     display: flex;
@@ -45,9 +50,7 @@ footer {
     border-style: solid;
     position: sticky;
     bottom: 0;
-    /* clave para que se pegue arriba */
     z-index: 1000;
-    /* asegura que quede por encima del contenido */
 }
 
 .home {
@@ -64,4 +67,44 @@ footer {
     font-size: 1em;
     color: white;
     text-decoration: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 0.5em;
+    border: grey solid 0.0625em;
+    padding: 1em;
+    font-size: 0.8em;
+}
+
+.enviar-cancelar {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    padding-top: 1em;
+}
+
+#enviar {
+    padding: 0.5em 1em;
+    border: none;
+    background-color: #9c99de;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+#cancelar {
+    padding: 0.5em 1em;
+    border: none;
+    background-color: #b36766;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
 }
