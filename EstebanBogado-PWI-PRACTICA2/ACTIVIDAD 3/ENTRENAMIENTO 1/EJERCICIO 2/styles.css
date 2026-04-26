@@ -73,22 +73,23 @@ section {
 }
 
 h4 {
-  display: flex;   
+    display: flex;
     justify-content: center;
 
 }
+
 .receta {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding-top: 0.50em;
 }
 
 img {
-    width: 100%;
+    width: 60%;
     height: auto;
-    border-radius: 0.5em;
+    border-radius: 1.25em;
 }
 
 div {
@@ -100,22 +101,6 @@ div {
     padding-bottom: 0.50em;
     /* opcional, asegura que el contenido quede a la izquierda */
 }
-
-/* ol {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5em;
-    flex-wrap: nowrap;
-    align-content: stretch;
-    justify-content: space-evenly;
-    align-items: self-start;
-}
-
-div {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5em;
-} */
 
 .contacto {
     display: flex;
@@ -143,13 +128,16 @@ form {
 .enviar-cancelar {
     display: flex;
     justify-content: center;
-    gap: 1em;
+    gap: 3em;
     padding-top: 1em;
+    flex-direction: row;
 }
 
 #enviar {
     padding: 0.5em 1em;
     border: none;
+    border-radius: 0.750em;
+    width: 10em;
     background-color: #9c99de;
     color: white;
     cursor: pointer;
@@ -159,6 +147,8 @@ form {
 #cancelar {
     padding: 0.5em 1em;
     border: none;
+    border-radius: 0.750em;
+    width: 10em;
     background-color: #b36766;
     color: white;
     cursor: pointer;
