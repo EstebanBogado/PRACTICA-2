@@ -81,3 +81,8 @@ iframe {
     align-items: center;
     margin-top: 1.25em;
 }
+
+#foto-de-perfil {
+    border-radius: 1em;
+    box-shadow: 0 0 0.625em rgba(0, 0, 0, 0.5);
+}
